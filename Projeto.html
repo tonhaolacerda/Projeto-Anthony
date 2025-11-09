@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio | Seu Nome</title>
+   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+</head>
+
+<body class="bg-gray-100 text-gray-900">
+
+  <header class="bg-white shadow fixed w-full top-0 z-50">
+    <nav class="container mx-auto flex justify-between items-center p-4">
+      <h1 class="text-2xl font-bold text-red-600">Anthony</h1>
+      <ul class="flex space-x-6">
+        <li><a href="#sobre" class="hover:text-red-600">Sobre</a></li>
+        <li><a href="#projetos" class="hover:text-red-600">Projetos</a></li>
+        <li><a href="#contato" class="hover:text-red-600">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+ <section class="h-screen flex flex-col md:flex-row items-center justify-between bg-gradient-to-b from-red-600 to-red-400 text-white px-16">
+
+  <div class="max-w-xl">
+    <h2 class="text-5xl font-extrabold mb-4 leading-tight">
+      Olá, eu sou <span class="text-yellow-300">Anthony</span>
+    </h2>
+    <p class="text-xl mb-6 max-w-lg">
+      Estudante e desenvolvedor iniciante Front-End.
+    </p>
+  </div>
+
+  
+  <div class="mt-10 md:mt-0 md:w-1/2 flex justify-center">
+    <img src="https://scontent.ftow4-1.fna.fbcdn.net/v/t39.30808-6/488601296_2112461792546430_4579266057061744764_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeGroeAv_5V2gHnPXwScDkjAwUNfnk5QMDDBQ1-eTlAwMMvu6Y0fkHRmhNJquv7zswnbrPlP2-cBHKESo8tchSTR&_nc_ohc=BnCVbAze30wQ7kNvwGP5uF4&_nc_oc=AdmrocX3yhHXUBJ_07LC9xCALZwt9T4fo34tHjCaXW9fsVtm-1ysPUBOEvcyfzSuCfs&_nc_zt=23&_nc_ht=scontent.ftow4-1.fna&_nc_gid=kyrVTlooHgezGU6IhrCKQA&oh=00_AfgZJLF9F_uoD5nYViQx53EWoF-8743VwerZoGXErpKUhQ&oe=6916A812" alt="Foto do Anthony" >
+  </div>
+</section>
+
+<section id="sobre" class="container mx-auto px-6 py-20">
+    <h3 class="text-3xl font-bold mb-6 text-center">Sobre Mim</h3>
+    <p class="max-w-3xl mx-auto text-lg text-gray-700 text-center">
+      Estou aprendendo HTML, CSS, JavaScript no Instituto Federal de Mato Grosso do Sul.
+      Gosto muito de jogos e xadrez. 
+    </p>
+  </section>
+
+  <section id="projetos" class="bg-gray-50 py-20">
+    <div class="container mx-auto px-6">
+      <h3 class="text-3xl font-bold mb-10 text-center">Meus Projetos</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+
+        <div class="bg-white rounded-xl shadow hover:shadow-lg transition p-5">
+          <img src="https://i.ibb.co/mfB7X1S/Captura-de-Tela-797.png" alt="Projeto 1" class="rounded-lg mb-4">
+          <h4 class="text-xl font-semibold mb-2">Projeto 1</h4>
+          <p class="text-gray-600 mb-4">Calculadora </p>
+          <a href="https://tonhaolacerda.github.io/calculadora-baskhara2/" class="text-red-600 font-medium hover:underline">Ver mais →</a>
+        </div>
+
+        <div class="bg-white rounded-xl shadow hover:shadow-lg transition p-5">
+          <h4 class="text-xl font-semibold mb-2">Projeto 2</h4>
+          <p class="text-gray-600 mb-4">É o site que você esta vendo agora :D</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+<section id="contato" class="bg-white text-gray-800 py-20 px-10 text-center">
+  <h3 class="text-3xl font-bold mb-6">Entre em Contato</h3>
+  <p class="text-gray-600 mb-8">Você pode me encontrar pelos links abaixo:</p>
+
+  <div class="space-y-4">
+    <p>Email: <a href="mailto:seuemail@gmail.com" class="text-red-600 hover:underline">anthony.souto@estudante.ifms.edu.br</a></p>
+    <p>WhatsApp: <a href="https://wa.me/5599999999999" target="_blank" class="text-red-600 hover:underline">+55 (67) 9891-5190</a></p>
+    <p>GitHub: <a href="https://github.com/tonhaolacerda" target="_blank" class="text-red-600 hover:underline">github.com/tonhaolacerda</a></p>
+  </div>
+</section>
+
+<footer class="bg-red-600 text-white text-center py-6">
+    <p>&copy; 2025 Anthony Lacerda. </p>
+  </footer>
